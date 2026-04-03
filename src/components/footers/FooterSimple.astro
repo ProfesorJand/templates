@@ -1,8 +1,6 @@
 ---
 import styles from './FooterSimple.module.css';
 import Container from '@components/base/Container.astro';
-
-const year = new Date().getFullYear();
 ---
 
 <footer class={styles.footer}>
@@ -12,6 +10,5 @@ const year = new Date().getFullYear();
       <a href="#" class={styles.link}>Términos</a>
       <a href="#" class={styles.link}>Galletas</a>
     </div>
-    <p class={styles.copyright}>&copy; {year} Astro Boilerplate. All rights reserved.</p>
   </Container>
 </footer>
